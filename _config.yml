@@ -51,7 +51,7 @@ content:
         sub_title: Microbiology Fellow
         caption: "July 2021 – April 2023"
         description: |
-          - Processed *Salmeonella* isolates from state public health laboratories for routine and outbreak surveillance.
+          - Processed *Salmonella* isolates from state public health laboratories for routine and outbreak surveillance.
           - Assayed *Salmonella* isolates using a variety of biochemical and serotyping methods.
           - Performed whole genome sequencing using Illumina and Nanopore NGS platforms.
           - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
@@ -69,7 +69,7 @@ content:
         sub_title: Bioinformatics Support
         caption: "July 2022 – September 2022"
         description: |
-          - Assisted in developing the mpox assembly pipeline and benchmarking host read removal.
+          - Assisted in developing the mpox assembly pipeline (https://github.com/CDCgov/polkapox) and benchmarking host read removal.
           - Developed a bioinformatics tool to resolve tandem repeats in mpox genomes.
 
   - title: Education
@@ -141,9 +141,31 @@ content:
           - Developed a Python script for performance metric calculations and a Nextflow workflow
             to automate the benchmarking protocol.
 
+  - title: Publications
+    layout: list
+    content:
+      - layout: left
+        title: Patterns of genomic deletions in monkeypox virus during the 2022 outbreak in the United States
+        sub_title: Nature Communications
+        caption: "2025"
+        link: https://doi.org/10.1038/s41467-025-64003-y
+        link_text: View Publication
+        description: |
+          Gigante, C.M., McGrath, D., Sukkestad, S., **Hetrick, E.**, et al. *Patterns of genomic deletions in monkeypox virus during the 2022 outbreak in the United States.* **Nature Communications 16, 8942 (2025).**
+
+
   - title: Research Experience
     layout: list
     content:
+      - layout: left
+        title: Kostas Bioinformatics Research Lab, Georgia Institute of Technology
+        sub_title: PhD Student Researcher
+        caption: "Fall 2023 – Present"
+        description: |
+          - Project 1: Investigating metagenomic trends in the Chattahoochee River associated with wastewater
+            treatment facility byproducts using comparative genomics.
+          - Project 2: Evaluating the species boundaries of Microbial Eukaryotes using Average Nucleotide Identity
+            and comparative genomics.
       - layout: left
         title: Emil Biochemistry Research Lab, Ball State University
         sub_title: Undergraduate Research Assistant
