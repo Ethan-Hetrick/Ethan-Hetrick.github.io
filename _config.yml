@@ -15,7 +15,7 @@ phone: "219.290.9944"
 
 github_username: Ethan-Hetrick
 
-darkmode: false
+darkmode: never
 
 about_title: About me
 about_content: |
@@ -34,26 +34,28 @@ content:
     layout: list
     content:
       - layout: left
-        title: Scientific Computing and Bioinformatics (SciComp), CDC/NCEZID/DIDRI/OAMD (Leidos contractor)
+        title: Scientific Computing and Bioinformatics, CDC/NCEZID/DIDRI/OAMD (Leidos contractor)
         sub_title: Bioinformatics Developer
         caption: "April 2023 – Present"
         description: |
-          - Filled in as acting team lead for the Bioinformatics Consultation Service on multiple occasions, serving as the technical lead for all bioinformatics projects, leading consultations, and participating as an interview panelist.
           - Develop bioinformatics pipelines and tools, primarily in Nextflow.
+          - Filled in as acting team lead for the Bioinformatics Consultation Service during crucial transition periods, serving as the technical lead for all bioinformatics projects, project management, leading consultations, and participating as an interview panelist.
           - Consult on bioinformatics projects across CDC.
-          - Service and maintain SciComp's shared high-performance computing environments.
-          - Develop and deliver training seminars on Nextflow, HPC, Python, and related topics.
+          - Service and maintain SciComp's shared high-performance computing environments including software module maintenance and HPC jobs.
+          - Help desk technical support agent and administrator for CDC user community.
+          - Develop and deliver training seminars on Nextflow, HPC, Python, Linux and related topics.
           - Create Nextflow best practices, documentation, shared resources, and training content.
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
-          - Service 100+ software modules, resolve 120+ service requests, and support 30+ training offerings.
-          - Debug, execute, and monitor large-scale jobs on the SciComp HPC cluster.
       - layout: left
-        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB
-        sub_title: Microbiology Fellow (ORISE)
+        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB (Oak Ridge Institute for Science and Education / ORISE)
+        sub_title: Microbiology Fellow
         caption: "July 2021 – April 2023"
         description: |
-          - Characterized Salmonella using a combination of wet-lab microbiology and dry-lab bioinformatics.
-          - Performed whole genome sequencing, microbiological assays, and downstream bioinformatics analyses.
+          - Processed *Salmeonella* isolates from state public health laboratories for routine and outbreak surveillance.
+          - Assayed *Salmonella* isolates using a variety of biochemical and serotyping methods.
+          - Performed whole genome sequencing using Illumina and Nanopore NGS platforms.
+          - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
+          - Investigated *Salmonella* antigen alleles using comparative genomics.
       - layout: left
         title: Indiana University Ball Memorial Hospital Pathology Laboratory
         sub_title: Clinical Laboratory Assistant
@@ -61,6 +63,7 @@ content:
         description: |
           - Operated chemistry, flow cytometry, coagulation, and urinalysis instruments.
           - Performed diagnostic assays to identify fungal, viral, and bacterial pathogens in patient specimens.
+          - Processed all patient specimens and serviced physicians' orders.
       - layout: left
         title: Multi-national mpox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
         sub_title: Bioinformatics Support
