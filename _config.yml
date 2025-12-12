@@ -129,7 +129,7 @@ content:
           - Beta-tester of AMD's Nextflow Tower instance in support of CDC/NCEZID/DIDRI/OAMD program.
           - Bacterial whole-genome sequence analysis pipelines in assistance of CDC/NCEZID/DFWED/EDLB program.
           - UPDX eukaryotic parasite detection pipeline in support of CDC/NCEZID/DPDM/LSDB program.
-        - layout: left
+      - layout: left
         title: Infrastructure and Operations Projects (Contractor)
         caption: "Selected projects supporting SciComp infrastructure and operations"
         description: |
