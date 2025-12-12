@@ -46,14 +46,6 @@ content:
           - Develop and deliver training seminars on Nextflow, HPC, Python, Software package management and containerization, Linux and related topics.
           - Create Nextflow best practices, documentation, shared resources, and training content.
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
-            - layout: left
-        title: Indiana University Ball Memorial Hospital Pathology Laboratory
-        sub_title: Clinical Laboratory Assistant
-        caption: "December 2020 – July 2021"
-        description: |
-          - Operated chemistry, flow cytometry, coagulation, and urinalysis instruments.
-          - Performed diagnostic assays to identify fungal, viral, and bacterial pathogens in patient specimens.
-          - Processed all patient specimens and serviced physicians' orders.
       - layout: left
         title: Multi-national mpox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
         sub_title: Bioinformatics Support
@@ -71,6 +63,14 @@ content:
           - Performed whole genome sequencing using Illumina and Nanopore NGS platforms.
           - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
           - Investigated *Salmonella* antigen alleles using comparative genomics.
+      - layout: left
+        title: Indiana University Ball Memorial Hospital Pathology Laboratory
+        sub_title: Clinical Laboratory Assistant
+        caption: "December 2020 – July 2021"
+        description: |
+          - Operated chemistry, flow cytometry, coagulation, and urinalysis instruments.
+          - Performed diagnostic assays to identify fungal, viral, and bacterial pathogens in patient specimens.
+          - Processed all patient specimens and serviced physicians' orders.
 
   - title: Education
     layout: list
@@ -203,6 +203,9 @@ content:
         description: |
           - Developed protocols for synthesizing copper nanoparticles that photodegrade persistent
             organic pollutants (e.g., PCBs) and embedding them in polymeric membranes for nanoparticle recovery.
+          - Completed 2019 summer student internship program (CRISP) project on assessing a CuO2 nanoparticle
+            synthesis protocol for degrading organic pollutants via photoactivation.
+          - Presented project findings to facility staff and interns.
 
   - title: Volunteering
     layout: list
