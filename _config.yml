@@ -69,7 +69,7 @@ content:
         sub_title: Bioinformatics Support
         caption: "July 2022 – September 2022"
         description: |
-          - Assisted in developing the mpox assembly pipeline (https://github.com/CDCgov/polkapox) and benchmarking host read removal.
+          - Assisted in developing the mpox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
           - Developed a bioinformatics tool to resolve tandem repeats in mpox genomes.
 
   - title: Education
@@ -87,7 +87,7 @@ content:
       - layout: left
         title: Ball State University
         sub_title: B.S. in Biology, Concentration in Microbiology; Minors in Spanish & Chemistry
-        caption: "May 2021 — GPA: 3.9"
+        caption: "May 2021 — *Suma cum laude*"
         description: |
           - Completed microbiology-focused curriculum with supporting coursework in Spanish and chemistry.
           - Conducted multiple undergraduate research projects in biochemistry, mycology, and environmental chemistry.
@@ -95,7 +95,7 @@ content:
   - title: Skills
     layout: text
     content: |
-      **Coding & Scripting:** Python, Bash, R, Groovy, Nextflow  
+      **Coding & Scripting:** Python, Bash, R, Groovy, Nextflow
       **Bioinformatics & HPC:** High-performance computing environments, workflow development, and
       experience with hundreds of bioinformatics software tools.  
       **Communication & Leadership:** Documentation, nonviolent communication / conflict resolution,
@@ -106,11 +106,20 @@ content:
     layout: list
     content:
       - layout: left
-        title: Lead / Supporting Bioinformatics Developer
+        title: Lead Bioinformatics Developer Projects (Contractor)
+        caption: "Selected Nextflow pipelines and projects"
+        description: |
+          -  Developed ([Neissflow](https://github.com/CDCgov/neissflow)), an end-to-end Nextflow NGS pipeline for typing, 
+            AMR detection and phylogenetics of *Neisseria* isolates in nf-core style. In assistance to the CDC/NCHHSTP/DSTDP program.
+          -  Developed an end-to-end *Streptococcus pneumoniae* typing pipeline ,
+             including quality control, *in-silico* serotyping, MLST, AMR detection, and phylogenetics in nf-core style. In assistance to the CDC/NCIRD/DBD/PSLB program.
+          - Developed an end-to-end *Legionella sp.* NGS pipeline for processing paired-end Illumina data, genome assemblies and NCBI SRA datasets for 
+            MLST, AMR detection, quality control and phylogenetics in nf-core style. In assistance to the CDC/NCIRD/DBD program.
+      - layout: left
+        title: Bioinformatics Consultant Projects
         caption: "Selected Nextflow pipelines and projects"
         description: |
           - Bacterial whole-genome sequence analysis pipelines (CDC/NCEZID/DFWED/EDLB)
-          - Neisseria variant calling pipeline “Neissflow” (CDC/NCHHSTP/DSTDP)
           - 16S amplicon tick surveillance pipeline (CDC/NCEZID/DVBD/BDB)
           - Mpox assembly pipeline (CDC/NCEZID/DHCPP/PRB)
           - SARS-CoV-2 variant calling pipeline (CDC/NCIRD/CORVD)
@@ -118,7 +127,6 @@ content:
           - AMD Tower (Nextflow) (CDC/NCEZID/DIDRI/OAMD)
           - ARP metagenomics project to identify novel coronaviruses in environmental samples (CDC/NCEZID/DHCPP/PRB)
           - UPDX eukaryotic parasite detection pipeline (CDC/NCEZID/DPDM/LSDB)
-          - Streptococcus pneumoniae typing pipeline (CDC/NCIRD/DBD/PSLB)
 
   - title: Leadership, Service & Presentations
     layout: list
