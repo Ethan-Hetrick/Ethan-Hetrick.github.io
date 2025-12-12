@@ -43,7 +43,7 @@ content:
           - Consult on bioinformatics projects across CDC.
           - Service and maintain SciComp's shared high-performance computing environments including software module maintenance and HPC jobs.
           - Help desk technical support agent and administrator for CDC user community.
-          - Develop and deliver training seminars on Nextflow, HPC, Python, Linux and related topics.
+          - Develop and deliver training seminars on Nextflow, HPC, Python, Software package management and containerization, Linux and related topics.
           - Create Nextflow best practices, documentation, shared resources, and training content.
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
       - layout: left
@@ -118,19 +118,25 @@ content:
           - Modified an existing nf-core amplicon pipeline to support amplicon taxonomic classification of *Borellia* amplicon reads
             from tick surveillance samples. In assistance to the CDC/NCEZID/DVBD/BDB program.
       - layout: left
-        title: Bioinformatics Consultant/Support Projects
+        title: Bioinformatics Consultant/Support Projects (Contractor)
         caption: "Selected Nextflow pipelines and projects"
         description: |
-          - Bacterial whole-genome sequence analysis pipelines (CDC/NCEZID/DFWED/EDLB)
-          - ([TOSTAS](https://github.com/CDCgov/tostadas)) (Toolkit for Open Sequence Triage, Annotation and DAtabase Submission)
-          - [amplicon tick surveillance pipeline](https://github.com/Ethan-Hetrick/tick_surveillance)) (CDC/NCEZID/DVBD/BDB)
+          - ([TOSTAS](https://github.com/CDCgov/tostadas)) Toolkit for Open Sequence Triage, Annotation and DAtabase Submission.
+          - [amplicon tick surveillance pipeline](https://github.com/Ethan-Hetrick/tick_surveillance)) in assistance of CDC/NCEZID/DVBD/BDB
           - ([aquascope](https://github.com/CDCgov/aquascope)) processes SARS-CoV-2 wastewater samples to determine relative variant abundance.
-          - Mpox assembly pipeline (CDC/NCEZID/DHCPP/PRB)
-          - SARS-CoV-2 variant calling pipeline (CDC/NCIRD/CORVD)
-          - nf-pass whole genome sequence analysis pipeline (CDC/NCIRD/DVD)
-          - AMD Tower (Nextflow) (CDC/NCEZID/DIDRI/OAMD)
-          - ARP metagenomics project to identify novel coronaviruses in environmental samples (CDC/NCEZID/DHCPP/PRB)
-          - UPDX eukaryotic parasite detection pipeline (CDC/NCEZID/DPDM/LSDB)
+          - SARS-CoV-2 variant calling pipeline in assistance of CDC/NCIRD/CORVD program.
+          - nf-pass whole genome sequence analysis pipeline in assistance of CDC/NCIRD/DVD program.
+          - Beta-tester of AMD's Nextflow Tower instance in support of CDC/NCEZID/DIDRI/OAMD program.
+          - Bacterial whole-genome sequence analysis pipelines in assistance of CDC/NCEZID/DFWED/EDLB program.
+          - UPDX eukaryotic parasite detection pipeline in support of CDC/NCEZID/DPDM/LSDB program.
+        - layout: left
+        title: Infrastructure and Operations Projects (Contractor)
+        caption: "Selected projects supporting SciComp infrastructure and operations"
+        description: |
+          - Developed the best practice production Nextflow configuration file for CDC's HPC compute cluster for all production pipelines and Nextflow trainings.
+          - Assisted in managing and performing the migration of system modules during the HPC cluster OS upgrade.
+          - Constructed a storage optimization plan and performed in-depth storage review to optimize resource usage.
+          - Developed documentation for various software management and HPC best practices.
 
   - title: Leadership, Service & Presentations
     layout: list
