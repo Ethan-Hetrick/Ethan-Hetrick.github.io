@@ -36,8 +36,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: Scientific Computing and Bioinformatics, CDC/NCEZID/DIDRI/OAMD
-        sub_title: Bioinformatics Developer, Leidos contractor
+        title: Bioinformatics Developer, Leidos contractor
+        sub_title: Scientific Computing and Bioinformatics, CDC/NCEZID/DIDRI/OAMD
         caption: "April 2023 – Present"
         description: |
           - Develop bioinformatics pipelines and tools, primarily in Nextflow.
@@ -49,15 +49,15 @@ content:
           - Create Nextflow best practices, documentation, shared resources, and training content.
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
       - layout: left
-        title: Multi-national mpox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
-        sub_title: Bioinformatician, Response Deployment
+        title: Bioinformatician, Response Deployment
+        sub_title: Multi-national Monkeypox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
         caption: "July 2022 – September 2022"
         description: |
-          - Assisted in developing the mpox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
-          - Developed a bioinformatics tool to resolve tandem repeats in mpox genomes.
+          - Assisted in developing the Monkeypox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
+          - Developed a bioinformatics tool to resolve tandem repeats in Monkeypox genomes.
       - layout: left
-        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB
-        sub_title: Microbiology Fellow, Oak Ridge Institute for Science and Education
+        title: Microbiology Fellow
+        sub_title: Oak Ridge Institute for Science and Education Fellowship, National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB
         caption: "July 2021 – April 2023"
         description: |
           - Processed *Salmonella* isolates from state public health laboratories for routine and outbreak surveillance.
@@ -66,8 +66,8 @@ content:
           - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
           - Investigated *Salmonella* antigen alleles using comparative genomics.
       - layout: left
-        title: Indiana University Ball Memorial Hospital Pathology Laboratory
-        sub_title: Clinical Laboratory Assistant
+        title: Clinical Laboratory Assistant
+        sub_title: Indiana University Ball Memorial Hospital Pathology Laboratory
         caption: "December 2020 – July 2021"
         description: |
           - Operated chemistry, flow cytometry, coagulation, and urinalysis instruments.
