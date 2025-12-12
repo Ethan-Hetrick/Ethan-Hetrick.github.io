@@ -46,17 +46,7 @@ content:
           - Develop and deliver training seminars on Nextflow, HPC, Python, Software package management and containerization, Linux and related topics.
           - Create Nextflow best practices, documentation, shared resources, and training content.
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
-      - layout: left
-        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB (Oak Ridge Institute for Science and Education / ORISE)
-        sub_title: Microbiology Fellow
-        caption: "July 2021 – April 2023"
-        description: |
-          - Processed *Salmonella* isolates from state public health laboratories for routine and outbreak surveillance.
-          - Assayed *Salmonella* isolates using a variety of biochemical and serotyping methods.
-          - Performed whole genome sequencing using Illumina and Nanopore NGS platforms.
-          - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
-          - Investigated *Salmonella* antigen alleles using comparative genomics.
-      - layout: left
+            - layout: left
         title: Indiana University Ball Memorial Hospital Pathology Laboratory
         sub_title: Clinical Laboratory Assistant
         caption: "December 2020 – July 2021"
@@ -71,6 +61,16 @@ content:
         description: |
           - Assisted in developing the mpox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
           - Developed a bioinformatics tool to resolve tandem repeats in mpox genomes.
+      - layout: left
+        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB (Oak Ridge Institute for Science and Education / ORISE)
+        sub_title: Microbiology Fellow
+        caption: "July 2021 – April 2023"
+        description: |
+          - Processed *Salmonella* isolates from state public health laboratories for routine and outbreak surveillance.
+          - Assayed *Salmonella* isolates using a variety of biochemical and serotyping methods.
+          - Performed whole genome sequencing using Illumina and Nanopore NGS platforms.
+          - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
+          - Investigated *Salmonella* antigen alleles using comparative genomics.
 
   - title: Education
     layout: list
@@ -87,7 +87,7 @@ content:
       - layout: left
         title: Ball State University
         sub_title: B.S. in Biology, Concentration in Microbiology; Minors in Spanish & Chemistry
-        caption: "May 2021 — *Suma cum laude*"
+        caption: "May 2021 — summa cum laude"
         description: |
           - Completed microbiology-focused curriculum with supporting coursework in Spanish and chemistry.
           - Conducted multiple undergraduate research projects in biochemistry, mycology, and environmental chemistry.
@@ -138,17 +138,15 @@ content:
           - Constructed a storage optimization plan and performed in-depth storage review to optimize resource usage.
           - Developed documentation for various software management and HPC best practices.
 
-  - title: Leadership, Service & Presentations
+  - title: Presentations & Events
     layout: list
     content:
       - layout: left
-        title: SciComp Leadership & Service
+        title: CDC Hack-a-thon 2023
         caption: "CDC Scientific Computing and Bioinformatics (SciComp)"
         description: |
-          - Developed Nextflow best practices, documentation, and shared training resources.
-          - Served as developer and facilitator for the CDC Hack-a-thon 2023.
-          - Performed an in-depth storage review in 2024 to optimize resource usage.
-          - Mentored SciComp interns and a full-time employee on workflows and HPC best practices.
+          - Served as developer and facilitator for Nextflow incubation projects.
+          - Created starter Nextflow pipelines.
       - layout: left
         title: AMD Days Conference, CDC 2023
         sub_title: Oral & Poster Presenter
