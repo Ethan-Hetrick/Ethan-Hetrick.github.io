@@ -50,10 +50,10 @@ content:
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
       - layout: left
         title: Bioinformatician, Response Deployment
-        sub_title: Multi-national Monkeypox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
+        sub_title: Multi-national monkeypox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
         caption: "July 2022 – September 2022"
         description: |
-          - Assisted in developing the Monkeypox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
+          - Assisted in developing the monkeypox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
           - Developed a bioinformatics tool to resolve tandem repeats in Monkeypox genomes.
       - layout: left
         title: Microbiology Fellow
