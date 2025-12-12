@@ -1,127 +1,161 @@
-# Site
-repository: Ethan-Hetrick/my-resume
-favicon: images/favicon.ico
+name: Ethan Hetrick
+title: Bioinformatics Developer & Bioinformatics PhD Student
+email: rqu4@cdc.gov
+website: https://github.com/Ethan-Hetrick
+location: Atlanta, GA
+phone: "219.290.9944"
 
-# Content configuration version
-version: 2
+github_username: Ethan-Hetrick
 
-# Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+darkmode: true
 
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_title: About me
+about_content: |
+  I am a detail-oriented, self-sufficient, and proactive worker with a life science background
+  and 4 years of professional experience in bioinformatics, along with three completed semesters
+  of my Bioinformatics PhD at Georgia Tech. I am pursuing roles that combine computational biology,
+  leadership, and project management, with the long-term goal of serving as a principal investigator
+  or technical lead. Open communication, empathy, and collaboration are core values in how I work.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Scientific Computing and Bioinformatics (SciComp), CDC/NCEZID/DIDRI/OAMD (Leidos contractor)
+        sub_title: Bioinformatics Developer
+        caption: "April 2023 – Present"
+        description: |
+          - Develop bioinformatics pipelines and tools, primarily in Nextflow.
+          - Consult on bioinformatics projects and analysis challenges across CDC.
+          - Service and maintain SciComp's shared high-performance computing environments.
+          - Develop and deliver training seminars on Nextflow, HPC, Python, and related topics.
+          - Create Nextflow best practices, documentation, shared resources, and training content.
+          - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
+          - Service 100+ software modules, resolve 120+ service requests, and support 30+ training offerings.
+          - Debug, execute, and monitor large-scale jobs on the SciComp HPC cluster.
+      - layout: left
+        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB
+        sub_title: Microbiology Fellow (ORISE)
+        caption: "July 2021 – April 2023"
+        description: |
+          - Characterized Salmonella using a combination of wet-lab microbiology and dry-lab bioinformatics.
+          - Performed whole genome sequencing, microbiological assays, and downstream bioinformatics analyses.
+      - layout: left
+        title: Indiana University Ball Memorial Hospital Pathology Laboratory
+        sub_title: Clinical Laboratory Assistant
+        caption: "December 2020 – July 2021"
+        description: |
+          - Loaded and initialized chemistry, flow cytometry, coagulation, and urinalysis instruments.
+          - Performed diagnostic assays to identify fungal, viral, and bacterial pathogens in patient specimens.
+      - layout: left
+        title: Multi-national mpox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
+        sub_title: Bioinformatics Support
+        caption: "July 2022 – September 2022"
+        description: |
+          - Assisted in developing the mpox assembly pipeline and benchmarking host read removal.
+          - Developed a bioinformatics tool to resolve tandem repeats in mpox genomes.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Georgia Institute of Technology
+        sub_title: PhD in Bioinformatics (in progress)
+        caption: "Projected graduation: May 2028"
+        description: |
+          - Project 1: Investigating intra-species taxonomic units and Average Nucleotide Identity (ANI)
+            intra-species gaps using comparative genomics and machine learning.
+          - Project 2: Evaluating the impact of wastewater treatment facility (WWTF) byproducts on the
+            Chattahoochee River using metagenomic and chemical data, including machine learning-based analyses.
+      - layout: left
+        title: Ball State University
+        sub_title: B.S. in Biology, Concentration in Microbiology; Minors in Spanish & Chemistry
+        caption: "May 2021 — GPA: 3.9"
+        description: |
+          - Completed microbiology-focused curriculum with supporting coursework in Spanish and chemistry.
+          - Conducted multiple undergraduate research projects in biochemistry, mycology, and environmental chemistry.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      **Coding & Scripting:** Python, Bash, R, Groovy, Nextflow  
+      **Bioinformatics & HPC:** High-performance computing environments, workflow development, and
+      experience with hundreds of bioinformatics software tools.  
+      **Communication & Leadership:** Documentation, nonviolent communication / conflict resolution,
+      mentoring, training seminar development and facilitation.  
+      **Languages:** Fluent in Spanish.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Selected CDC Pipelines & Projects
+    layout: list
+    content:
+      - layout: left
+        title: Lead / Supporting Bioinformatics Developer
+        caption: "Selected Nextflow pipelines and projects"
+        description: |
+          - Bacterial whole-genome sequence analysis pipelines (CDC/NCEZID/DFWED/EDLB)
+          - Neisseria variant calling pipeline “Neissflow” (CDC/NCHHSTP/DSTDP)
+          - 16S amplicon tick surveillance pipeline (CDC/NCEZID/DVBD/BDB)
+          - Mpox assembly pipeline (CDC/NCEZID/DHCPP/PRB)
+          - SARS-CoV-2 variant calling pipeline (CDC/NCIRD/CORVD)
+          - nf-pass whole genome sequence analysis pipeline (CDC/NCIRD/DVD)
+          - AMD Tower (Nextflow) (CDC/NCEZID/DIDRI/OAMD)
+          - ARP metagenomics project to identify novel coronaviruses in environmental samples (CDC/NCEZID/DHCPP/PRB)
+          - UPDX eukaryotic parasite detection pipeline (CDC/NCEZID/DPDM/LSDB)
+          - Streptococcus pneumoniae typing pipeline (CDC/NCIRD/DBD/PSLB)
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+  - title: Leadership, Service & Presentations
+    layout: list
+    content:
+      - layout: left
+        title: SciComp Leadership & Service
+        caption: "CDC Scientific Computing and Bioinformatics (SciComp)"
+        description: |
+          - Developed Nextflow best practices, documentation, and shared training resources.
+          - Served as developer and facilitator for the CDC Hack-a-thon 2023.
+          - Performed an in-depth storage review in 2024 to optimize resource usage.
+          - Mentored SciComp interns and a full-time employee on workflows and HPC best practices.
+      - layout: left
+        title: AMD Days Conference, CDC 2023
+        sub_title: Oral & Poster Presenter
+        caption: "2023"
+        description: |
+          - Presented a 10-minute oral talk and poster on benchmarking read-mapping tools for
+            use-case optimization and reproducibility in public health research.
+          - Developed a Python script for performance metric calculations and a Nextflow workflow
+            to automate the benchmarking protocol.
 
-# Build settings
-remote_theme: sproogen/resume-theme
+  - title: Research Experience
+    layout: list
+    content:
+      - layout: left
+        title: Emil Biochemistry Research Lab, Ball State University
+        sub_title: Undergraduate Research Assistant
+        caption: "August 2020 – December 2020"
+        description: |
+          - Computationally designed oligonucleotides using NUPACK for binary light-up aptameric sensors (BLAS).
+      - layout: left
+        title: Bernstein Mycology Research Lab, Ball State University
+        sub_title: Undergraduate Research Assistant
+        caption: "October 2019 – May 2020"
+        description: |
+          - Performed quantitative biofilm assays on *Candida albicans* for future application of
+            expansion microscopy on biofilms.
+      - layout: left
+        title: Zahran Environmental Chemistry Research Lab, Ball State University
+        sub_title: Undergraduate Research Assistant
+        caption: "December 2018 – August 2019"
+        description: |
+          - Developed protocols for synthesizing copper nanoparticles that photodegrade persistent
+            organic pollutants (e.g., PCBs) and embedding them in polymeric membranes for nanoparticle recovery.
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+  - title: Volunteering
+    layout: list
+    content:
+      - layout: left
+        title: Hammond Sanitary District Wastewater Treatment Facility
+        sub_title: Volunteer Laboratory Assistant
+        caption: "December 2019"
+        description: |
+          - Performed wastewater chemical analyses and sample processing, including phosphorus, pH,
+            total Kjeldahl nitrogen, suspended solids, and biochemical / chemical oxygen demand.
