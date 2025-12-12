@@ -14,13 +14,12 @@ website: https://github.com/Ethan-Hetrick
 location: Atlanta, GA
 phone: "219.290.9944"
 
-picture: assets/img/profile.jpg
-
 github_username: Ethan-Hetrick
 
 darkmode: never
 
 about_title: About me
+about_profile_image: images/profile.jpg
 about_content: |
   I am a Bioinformatics Developer at the Centers for Disease Control and Prevention (CDC) and a
   PhD student in Bioinformatics at the Georgia Institute of Technology. I specialize in developing
