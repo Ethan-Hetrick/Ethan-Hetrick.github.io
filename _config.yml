@@ -36,8 +36,9 @@ content:
     layout: list
     content:
       - layout: left
-        title: Scientific Computing and Bioinformatics, CDC/NCEZID/DIDRI/OAMD (Leidos contractor)
-        sub_title: Bioinformatics Developer
+        title: Scientific Computing and Bioinformatics, Centers for Disease Control and Prevention
+        sub_title: Bioinformatics Developer, *Leidos contractor*
+          Office of Advanced Molecular Detection (CDC/NCEZID/DIDRI/OAMD)
         caption: "April 2023 – Present"
         description: |
           - Develop bioinformatics pipelines and tools, primarily in Nextflow.
