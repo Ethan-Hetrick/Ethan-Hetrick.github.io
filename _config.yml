@@ -143,14 +143,15 @@ content:
     content:
       - layout: left
         title: CDC Hack-a-thon 2023
-        caption: "CDC Scientific Computing and Bioinformatics (SciComp)"
+        sub_title: Facilitator
+        caption: "Office of Advanced Molecular Detection (OAMD), CDC"
         description: |
           - Served as developer and facilitator for Nextflow incubation projects.
           - Created starter Nextflow pipelines.
       - layout: left
         title: AMD Days Conference, CDC 2023
         sub_title: Oral & Poster Presenter
-        caption: "2023"
+        caption: "Office of Advanced Molecular Detection (OAMD), CDC"
         description: |
           - Presented a 10-minute oral talk and poster on benchmarking read-mapping tools for
             use-case optimization and reproducibility in public health research.
