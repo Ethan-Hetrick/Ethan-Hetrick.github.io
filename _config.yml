@@ -9,9 +9,12 @@ version: 2
 name: Ethan Hetrick
 title: Bioinformatics Developer & Bioinformatics PhD Student
 email: ethan.hetrick.business@gmail.com
+github_username: Ethan-Hetrick
 website: https://github.com/Ethan-Hetrick
 location: Atlanta, GA
 phone: "219.290.9944"
+
+picture: images/profile.jpg
 
 github_username: Ethan-Hetrick
 
@@ -102,12 +105,12 @@ content:
       mentoring, training seminar development and facilitation.  
       **Languages:** Fluent in Spanish.
 
-  - title: Selected CDC Pipelines & Projects
+  - title: Selected Projects
     layout: list
     content:
       - layout: left
-        title: Lead Bioinformatics Developer Projects (Contractor)
-        caption: "Selected Nextflow pipelines and projects"
+        title: Lead Bioinformatics Developer Projects
+        caption: "Leidos Contractor"
         description: |
           -  Developed ([Neissflow](https://github.com/CDCgov/neissflow)), an end-to-end Nextflow NGS pipeline for typing, 
             AMR detection and phylogenetics of *Neisseria* isolates in nf-core style. In assistance to the CDC/NCHHSTP/DSTDP program.
@@ -118,8 +121,8 @@ content:
           - Modified an existing nf-core amplicon pipeline to support amplicon taxonomic classification of *Borellia* amplicon reads
             from tick surveillance samples. In assistance to the CDC/NCEZID/DVBD/BDB program.
       - layout: left
-        title: Bioinformatics Consultant/Support Projects (Contractor)
-        caption: "Selected Nextflow pipelines and projects"
+        title: Bioinformatics Consultant/Support Projects
+        caption: "Leidos Contractor"
         description: |
           - ([TOSTAS](https://github.com/CDCgov/tostadas)) Toolkit for Open Sequence Triage, Annotation and DAtabase Submission.
           - [amplicon tick surveillance pipeline](https://github.com/Ethan-Hetrick/tick_surveillance)) in assistance of CDC/NCEZID/DVBD/BDB
@@ -129,9 +132,19 @@ content:
           - Beta-tester of AMD's Nextflow Tower instance in support of CDC/NCEZID/DIDRI/OAMD program.
           - Bacterial whole-genome sequence analysis pipelines in assistance of CDC/NCEZID/DFWED/EDLB program.
           - UPDX eukaryotic parasite detection pipeline in support of CDC/NCEZID/DPDM/LSDB program.
+          - Transitioning a Fast Fourier Tranform model for estimating the disease burden of antibiotic-resistant
+            infections from R to GPU-accelerated Python libraries for a large-scale analysis. 
       - layout: left
-        title: Infrastructure and Operations Projects (Contractor)
-        caption: "Selected projects supporting SciComp infrastructure and operations"
+        title: Bioinformatics Research Projects
+        caption: "PhD Student Researcher"
+        description: |
+          - Elucidated the species boundaries of Microbial Eukaryotes using Average Nucleotide Identity (ANI) and comparative genomics,
+            improving taxonomic classification methods for applications in ecological research and pathogen detection.
+          - Investigated metagenomic and biochemical trends in the Chattahoochee River associated with wastewater, including taxonomic
+            shifts and antibiotic resistance gene prevalence.
+      - layout: left
+        title: Infrastructure and Operations Projects
+        caption: "Leidos Contractor"
         description: |
           - Developed the best practice production Nextflow configuration file for CDC's HPC compute cluster for all production pipelines and Nextflow trainings.
           - Assisted in managing and performing the migration of system modules during the HPC cluster OS upgrade.
@@ -161,7 +174,7 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Patterns of genomic deletions in monkeypox virus during the 2022 outbreak in the United States
         sub_title: Nature Communications
         caption: "2025"
@@ -205,7 +218,7 @@ content:
             organic pollutants (e.g., PCBs) and embedding them in polymeric membranes for nanoparticle recovery.
           - Completed 2019 summer student internship program (CRISP) project on assessing a CuO2 nanoparticle
             synthesis protocol for degrading organic pollutants via photoactivation.
-          - Presented project findings to facility staff and interns.
+          - Presented project findings to chemistry faculty and interns.
 
   - title: Volunteering
     layout: list
