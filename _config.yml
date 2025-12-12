@@ -36,9 +36,8 @@ content:
     layout: list
     content:
       - layout: left
-        title: Scientific Computing and Bioinformatics, Centers for Disease Control and Prevention
-        sub_title: Bioinformatics Developer, *Leidos contractor*
-          Office of Advanced Molecular Detection (CDC/NCEZID/DIDRI/OAMD)
+        title: Scientific Computing and Bioinformatics, CDC/NCEZID/DIDRI/OAMD
+        sub_title: Bioinformatics Developer, Leidos contractor
         caption: "April 2023 – Present"
         description: |
           - Develop bioinformatics pipelines and tools, primarily in Nextflow.
@@ -51,14 +50,14 @@ content:
           - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
       - layout: left
         title: Multi-national mpox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
-        sub_title: Bioinformatics Support
+        sub_title: Bioinformatician, Response Deployment
         caption: "July 2022 – September 2022"
         description: |
           - Assisted in developing the mpox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
           - Developed a bioinformatics tool to resolve tandem repeats in mpox genomes.
       - layout: left
-        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB (Oak Ridge Institute for Science and Education / ORISE)
-        sub_title: Microbiology Fellow
+        title: National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB
+        sub_title: Microbiology Fellow, Oak Ridge Institute for Science and Education
         caption: "July 2021 – April 2023"
         description: |
           - Processed *Salmonella* isolates from state public health laboratories for routine and outbreak surveillance.
