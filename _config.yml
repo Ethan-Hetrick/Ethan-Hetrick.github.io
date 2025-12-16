@@ -83,8 +83,7 @@ content:
         caption: "Projected graduation: May 2028"
         description: |
           - Focus areas: Applied machine learning, comparative genomics, evolution, public health science, environmental science
-          - Relevant coursework: Machine Learning for Computational Biology, Computational Genomics, Genomics & Applied Bioinformatics,
-            Research Ethics, Evolutionary Biology, Programming for Bioinformatics
+          - Relevant coursework: Machine Learning for Computational Biology, Computational Genomics, Genomics & Applied Bioinformatics, Research Ethics, Evolutionary Biology, Programming for Bioinformatics
       - layout: left
         title: Ball State University
         sub_title: B.S. in Biology, Concentration in Microbiology; Minors in Spanish & Chemistry
@@ -92,7 +91,7 @@ content:
         description: |
           - Completed microbiology-focused curriculum with minors in Spanish and chemistry.
           - Conducted multiple undergraduate research projects in biochemistry, mycology, and environmental chemistry.
-	  - Relevant coursework: Pathogenic Bacteriology, Medical Mycology, Immunology, Biochemistry, Aquatic Microbiology
+          - Relevant coursework: Pathogenic Bacteriology, Medical Mycology, Immunology, Biochemistry, Aquatic Microbiology
 
   - title: Skills
     layout: text
