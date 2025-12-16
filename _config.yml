@@ -53,7 +53,7 @@ content:
         sub_title: Multi-national monkeypox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
         caption: "July 2022 – September 2022"
         description: |
-          - Assisted in developing the monkeypox assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
+          - Assisted in developing the monkeypox virus assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
           - Developed a bioinformatics tool to resolve tandem repeats in Monkeypox genomes.
       - layout: left
         title: Microbiology Fellow
@@ -82,8 +82,8 @@ content:
         sub_title: PhD in Bioinformatics (in progress)
         caption: "Projected graduation: May 2028"
         description: |
-          - Project 1: Investigating intra-species taxonomic units and Average Nucleotide Identity (ANI)
-            intra-species gaps using comparative genomics and machine learning.
+          - Project 1: Investigating inter-species ANI trends for species prediction of microbial
+            Eukaryotes for public health and environmental research applications.
           - Project 2: Evaluating the impact of wastewater treatment facility (WWTF) byproducts on the
             Chattahoochee River using metagenomic and chemical data, including machine learning-based analyses.
       - layout: left
