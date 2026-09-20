@@ -1,244 +1,273 @@
-# Site
+# Site and personal information
 repository: Ethan-Hetrick/my-resume
 favicon: images/favicon.ico
-
-# Content configuration version
 version: 2
-
-# Personal info
-name: Ethan Hetrick
-title: Bioinformatics Developer & Bioinformatics PhD Student
+name: Ethan E. Hetrick
+title: Bioinformatics Developer | Scientific Computing & Genomics
 email: ethan.hetrick.business@gmail.com
 github_username: Ethan-Hetrick
 website: https://github.com/Ethan-Hetrick
 location: Atlanta, GA
-phone: "219.290.9944"
-
-github_username: Ethan-Hetrick
-
+phone: "(219) 290-9944"
 darkmode: never
 
-about_title: About me
+about_title: Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  I am a Bioinformatics Developer at the Centers for Disease Control and Prevention (CDC) and a
-  PhD student in Bioinformatics at the Georgia Institute of Technology. I specialize in developing
-  bioinformatics pipelines and tools, primarily using Nextflow, to support public health research
-  and surveillance. My interests include workflow development, high-performance computing,
-  comparative genomics, metagenomics, and machine learning applications in biology.
-  
-  Outside of work and school, I enjoy skateboarding, weightlifting and playing jazz on the trombone.
-  
-  Feel free to reach out via email or connect with me on GitHub!
+  Public-health scientist and bioinformatics developer with 5+ years supporting national disease surveillance, outbreak response, and research at the CDC. Trusted technical consultant and lead who has advised on 30+ projects, guided teams through critical transitions, mentored early-career scientists, and trained hundreds of colleagues across the agency. Combines deep computational expertise with a record of delivering reliable, reproducible tools that public-health laboratories depend on, including during active outbreak response.
 
 content:
-  - title: Experience
+  - title: Professional Experience
     layout: list
     content:
       - layout: left
-        title: Bioinformatics Developer, Leidos contractor
-        sub_title: Scientific Computing and Bioinformatics, CDC/NCEZID/DIDRI/OAMD
-        caption: "April 2023 – Present"
+        title: Bioinformatics Developer
+        sub_title: Leidos supporting CDC Scientific Computing
+        caption: "Atlanta, GA | April 2023 – Present"
         description: |
-          - Develop bioinformatics pipelines and tools, primarily in Nextflow.
-          - Filled in as acting team lead for the Bioinformatics Consultation Service during crucial transition periods, serving as the technical lead for all bioinformatics projects, project management, leading consultations, and participating as an interview panelist.
-          - Consult on bioinformatics projects across CDC.
-          - Service and maintain SciComp's shared high-performance computing environments including software module maintenance and HPC jobs.
-          - Help desk technical support agent and administrator for CDC user community.
-          - Develop and deliver training seminars on Nextflow, HPC, Python, Software package management and containerization, Linux and related topics.
-          - Create Nextflow best practices, documentation, shared resources, and training content.
-          - Mentor SciComp interns and full-time staff on bioinformatics and workflow development.
-      - layout: left
-        title: Bioinformatician, Response Deployment
-        sub_title: Multi-national monkeypox outbreak response, CDC/NCEZID/DHCPP/PRB & CDC/NCEZID/DIDRI/OAMD
-        caption: "July 2022 – September 2022"
-        description: |
-          - Assisted in developing the monkeypox virus assembly pipeline ([PolkaPox](https://github.com/CDCgov/polkapox)) and benchmarking host read removal.
-          - Developed a bioinformatics tool to resolve tandem repeats in Monkeypox genomes.
+          *Junior-level: April 2023 – June 2025; Mid-level: June 2025 – Present*
+
+          Office of Advanced Molecular Detection; National Center for Emerging and Zoonotic Infectious Diseases; Centers for Disease Control and Prevention
+
+          - Serve as a primary technical consultant across CDC disease programs, advising on 30+ projects and translating scientific needs into reliable production tools for surveillance, outbreak analysis, and research.
+          - Led development on 5+ bioinformatics projects, delegating tasks and directing analysis design from concept through delivery.
+          - Served as interim team lead through three leadership transitions (~6 months total), coordinating developers, DevOps, and helpdesk staff and reporting to CDC leadership.
+          - Designed and delivered agency-wide training reaching hundreds of scientists and developers; created CDC's Nextflow curriculum.
+          - Mentored two interns and a junior engineer and served on numerous hiring panels.
+          - Played a lead role in modernizing CDC's HPC environment, supporting migration of over a thousand software tools.
+          - Built shared automation, procedures, and configuration adopted across dozens of workflows.
+          - Provide frontline technical support, meeting quarterly SLA targets and resolving 3× the team average within SLA last quarter.
+          - Contributed technical writing to contract acquisition and served as an HHS training administrator.
       - layout: left
         title: Microbiology Fellow
-        sub_title: Oak Ridge Institute for Science and Education Fellowship, National Salmonella Reference Laboratory, CDC/NCEZID/DFWED/EDLB
-        caption: "July 2021 – April 2023"
+        sub_title: ORISE / CDC National Salmonella Reference Laboratory
+        caption: "Atlanta, GA | July 2021 – April 2023"
         description: |
-          - Processed *Salmonella* isolates from state public health laboratories for routine and outbreak surveillance.
-          - Assayed *Salmonella* isolates using a variety of biochemical and serotyping methods.
-          - Performed whole genome sequencing using Illumina and Nanopore NGS platforms.
-          - Prototyped a CLIA bioinformatics pipeline for *Salmonella* whole genome sequence analysis.
-          - Investigated *Salmonella* antigen alleles using comparative genomics.
+          - Characterized hundreds of clinical, outbreak, research, and international *Salmonella* isolates under CLIA-certified protocols.
+          - Prototyped a whole-genome sequencing pipeline for *Salmonella* subtyping in a regulated reference laboratory.
+          - Investigated serotype determinants using comparative genomics, identifying a candidate mechanism for an unexplained antigenic phenotype.
+          - Performed end-to-end Illumina and Oxford Nanopore sequencing and supported international collaborations and the reference culture collection.
+          - Processed and inventoried specimens, maintained storage and documentation, and reported results in ELIMS.
+      - layout: left
+        title: Bioinformatician, Outbreak Response Deployment
+        sub_title: CDC Multinational Mpox Response
+        caption: "Atlanta, GA | July 2022 – September 2022"
+        description: |
+          - Contributed to CDC's mpox genome assembly and annotation pipeline during an active international outbreak.
+          - Performed SNP analysis supporting mpox clade designation for a WHO advisory meeting.
+          - Developed methods for repetitive genome regions and integrated them into the response pipeline.
+          - Benchmarked host-read removal, enabling removal of host-derived PII and higher-quality *de novo* assemblies.
       - layout: left
         title: Clinical Laboratory Assistant
-        sub_title: Indiana University Ball Memorial Hospital Pathology Laboratory
-        caption: "December 2020 – July 2021"
+        sub_title: IU Ball Memorial Hospital, Pathology Laboratory
+        caption: "Muncie, IN | December 2020 – July 2021"
         description: |
-          - Operated chemistry, flow cytometry, coagulation, and urinalysis instruments.
-          - Performed diagnostic assays to identify fungal, viral, and bacterial pathogens in patient specimens.
-          - Processed all patient specimens and serviced physicians' orders.
+          - Managed patient specimens and physician orders in Cerner and performed diagnostic RT-qPCR, immunofluorescence, and other pathogen assays.
+          - Ran quality controls on new assay lots; trained in CLIA/HIPAA regulations and laboratory safety.
 
   - title: Education
     layout: list
     content:
       - layout: left
         title: Georgia Institute of Technology
-        sub_title: PhD in Bioinformatics (in progress)
-        caption: "Projected graduation: May 2028"
+        sub_title: Ph.D. in Bioinformatics, School of Biological Sciences — in progress
+        caption: "Atlanta, GA | Fall 2023 – Present; expected May 2028"
         description: |
-          - Focus areas: Applied machine learning, comparative genomics, evolution, public health science, environmental science
-          - Relevant coursework: Machine Learning for Computational Biology, Computational Genomics, Genomics & Applied Bioinformatics, Research Ethics, Evolutionary Biology, Programming for Bioinformatics
+          **Relevant coursework:** Applied Bioinformatics & Genomics; Programming for Bioinformatics; Reproducible Bioinformatics; Machine Learning for Computational Biology; Human and Machine Learning; Evolutionary Biology; Research Ethics
       - layout: left
         title: Ball State University
-        sub_title: B.S. in Biology, Concentration in Microbiology; Minors in Spanish & Chemistry
-        caption: "May 2021 — summa cum laude"
+        sub_title: B.S. Biology, Microbiology concentration; minors in Spanish & Chemistry
+        caption: "Muncie, IN | 2018 – 2021 — summa cum laude (GPA 3.9/4.0)"
         description: |
-          - Completed microbiology-focused curriculum with minors in Spanish and chemistry.
-          - Conducted multiple undergraduate research projects in biochemistry, mycology, and environmental chemistry.
-          - Relevant coursework: Pathogenic Bacteriology, Medical Mycology, Immunology, Biochemistry, Aquatic Microbiology
+          **Research:** Aptamer biosensors; *Candida albicans* biofilms; environmental nanochemistry / PCB photodegradation
 
-  - title: Skills
+          **Coursework:** Biostatistics and Experimental Design; Cell and Molecular Biology; Biochemistry; Microbiology; Pathogenic Bacteriology; Immunology; Medical Mycology; Aquatic Microbiology; Ecology; Organic Chemistry
+
+  - title: Selected Graduate Coursework Projects
+    layout: list
+    content:
+      - layout: top
+        title: FCGR Taxonomic Classification
+        link: https://github.com/Ethan-Hetrick/FCGR_classifier
+        link_text: View Project
+        description: Showed that linear models using Frequency Chaos Game Representations match or outperform a CNN benchmark for low-level *Salmonella* classification across hundreds of thousands of genomes, achieving near-perfect macro-F1 at a fraction of the compute.
+      - layout: top
+        title: Protein Mutation Fitness Prediction
+        description: Built and tuned a RankNet model with ESM-1v embeddings, PyTorch Lightning, and Optuna k-fold hyperparameter search for deep mutational scanning fitness prediction.
+      - layout: top
+        title: MMR Coverage & Measles Wastewater Surveillance
+        description: Analyzed CDC wastewater and vaccination data in R using nonparametric testing and quasibinomial regression.
+
+  - title: Technical Skills
     layout: text
     content: |
-      **Coding & Scripting:** Python, Bash, R, Groovy, Nextflow
-      **Bioinformatics & HPC:** High-performance computing environments, workflow development, and
-      experience with hundreds of bioinformatics software tools.  
-      **Communication & Leadership:** Documentation, nonviolent communication / conflict resolution,
-      mentoring, training seminar development and facilitation.  
-      **Languages:** Fluent in Spanish.
+      **Languages & data:** Python, R, SQL/DuckDB, Bash, Rust, Groovy/Nextflow; pandas, NumPy, SciPy, Parquet/PyArrow
+
+      **Statistical computing:** brms/rstan, tidybayes; Bayesian regression, MCMC, GLMs, FFT convolution, PCA, hypothesis testing, uncertainty propagation, power analysis
+
+      **Pipeline engineering:** Nextflow (DSL1/DSL2), nf-core, nf-test, ETL, legacy migration, input validation, data-quality checks, reusable configuration
+
+      **Computing & infrastructure:** Linux, HPC, SGE/UGE, SLURM, parallel processing, memory and runtime optimization
+
+      **Containers & version control:** Docker, Singularity/Apptainer, Git, GitLab CI/CD, GitHub Actions, pixi, conda, uv
+
+      **Genomics:** Alignment, comparative genomics, phylogenetics, annotation, bulk RNA-Seq, variant calling, *de novo* assembly, pangenomes, *in-silico* PCR
 
   - title: Selected Projects
     layout: list
     content:
-      - layout: left
-        title: Lead Bioinformatics Developer Projects
-        caption: "Leidos Contractor"
-        description: |
-          -  Developed ([Neissflow](https://github.com/CDCgov/neissflow)), an end-to-end Nextflow NGS pipeline for typing, 
-            AMR detection and phylogenetics of *Neisseria* isolates in nf-core style. In assistance to the CDC/NCHHSTP/DSTDP program.
-          -  Developed an end-to-end *Streptococcus pneumoniae* typing pipeline ,
-             including quality control, *in-silico* serotyping, MLST, AMR detection, and phylogenetics in nf-core style. In assistance to the CDC/NCIRD/DBD/PSLB program.
-          - Developed an end-to-end *Legionella sp.* NGS pipeline for processing paired-end Illumina data, genome assemblies and NCBI SRA datasets for 
-            MLST, AMR detection, quality control and phylogenetics in nf-core style. In assistance to the CDC/NCIRD/DBD program.
-          - Modified an existing nf-core amplicon pipeline to support amplicon taxonomic classification of *Borellia* amplicon reads
-            from tick surveillance samples. In assistance to the CDC/NCEZID/DVBD/BDB program.
-      - layout: left
-        title: Bioinformatics Consultant/Support Projects
-        caption: "Leidos Contractor"
-        description: |
-          - ([TOSTAS](https://github.com/CDCgov/tostadas)) Toolkit for Open Sequence Triage, Annotation and DAtabase Submission.
-          - [amplicon tick surveillance pipeline](https://github.com/Ethan-Hetrick/tick_surveillance)) in assistance of CDC/NCEZID/DVBD/BDB
-          - ([aquascope](https://github.com/CDCgov/aquascope)) processes SARS-CoV-2 wastewater samples to determine relative variant abundance.
-          - SARS-CoV-2 variant calling pipeline in assistance of CDC/NCIRD/CORVD program.
-          - nf-pass whole genome sequence analysis pipeline in assistance of CDC/NCIRD/DVD program.
-          - Beta-tester of AMD's Nextflow Tower instance in support of CDC/NCEZID/DIDRI/OAMD program.
-          - Bacterial whole-genome sequence analysis pipelines in assistance of CDC/NCEZID/DFWED/EDLB program.
-          - UPDX eukaryotic parasite detection pipeline in support of CDC/NCEZID/DPDM/LSDB program.
-          - Transitioning a Fast Fourier Tranform model for estimating the disease burden of antibiotic-resistant
-            infections from R to GPU-accelerated Python libraries for a large-scale analysis. 
-      - layout: left
-        title: Bioinformatics Research Projects
-        caption: "PhD Student Researcher"
-        description: |
-          - Elucidated the species boundaries of Microbial Eukaryotes using Average Nucleotide Identity (ANI) and comparative genomics,
-            improving taxonomic classification methods for applications in ecological research and pathogen detection.
-          - Investigated metagenomic and biochemical trends in the Chattahoochee River associated with wastewater, including taxonomic
-            shifts and antibiotic resistance gene prevalence.
-      - layout: left
-        title: Infrastructure and Operations Projects
-        caption: "Leidos Contractor"
-        description: |
-          - Developed the best practice production Nextflow configuration file for CDC's HPC compute cluster for all production pipelines and Nextflow trainings.
-          - Assisted in managing and performing the migration of system modules during the HPC cluster OS upgrade.
-          - Constructed a storage optimization plan and performed in-depth storage review to optimize resource usage.
-          - Developed documentation for various software management and HPC best practices.
-
-  - title: Presentations & Events
-    layout: list
-    content:
-      - layout: left
-        title: CDC Hack-a-thon 2023
-        sub_title: Facilitator
-        caption: "Office of Advanced Molecular Detection (OAMD), CDC"
-        description: |
-          - Served as developer and facilitator for Nextflow incubation projects.
-          - Created starter Nextflow pipelines.
-      - layout: left
-        title: AMD Days Conference, CDC 2023
-        sub_title: Oral & Poster Presenter
-        caption: "Office of Advanced Molecular Detection (OAMD), CDC"
-        description: |
-          - Presented a 10-minute oral talk and poster on benchmarking read-mapping tools for
-            use-case optimization and reproducibility in public health research.
-          - Developed a Python script for performance metric calculations and a Nextflow workflow
-            to automate the benchmarking protocol.
+      - layout: top
+        title: Microbial Eukaryote Comparative Genomics
+        description: Constructed a DuckDB database of ~100 million pairwise comparisons (~10,000 genomes); analyzed ~80 genera and 1,000+ species using multinomial logistic regression, graph clustering, and precision–recall/F1 evaluation. Co-first author (in review).
+      - layout: top
+        title: nf-core contributor
+        link: https://github.com/nf-core/modules
+        link_text: View Repository
+        description: Authored and merged an average nucleotide identity module with an nf-test and passing required CI/CD checks.
+      - layout: top
+        title: FoodNet Trends
+        description: Implemented Bayesian negative-binomial spline regression in R with population offsets, posterior incidence estimates, credible intervals, and configurable MCMC workflows across 10 U.S. sites.
+      - layout: top
+        title: fasterANI
+        description: Built a multithreaded, memory-safe ANI implementation in Rust using minimizer sketches, cached indexes, memory mapping, and bounded parallelism; achieved roughly 5× faster runtime and lower peak memory with near-perfect FastANI correlation.
+      - layout: top
+        title: ARX Threat Report
+        description: Reimplemented national antimicrobial-resistance burden aggregation in vectorized Python with FFT convolution across ~20 pathogens, reducing a non-completing workflow to under a minute.
+      - layout: top
+        title: neissflow
+        description: Portable production workflow for *Neisseria gonorrhoeae* genomic epidemiology, adopted by state and international partners.
+      - layout: top
+        title: RADish
+        description: End-to-end ddRAD-seq workflow for mosquito insecticide-resistance surveillance, SNP comparisons, Fisher's exact tests, PCA, and annotation.
+      - layout: top
+        title: PolkaPox
+        link: https://github.com/CDCgov/polkapox
+        link_text: View Repository
+        description: Co-authored a Nextflow workflow for QC, reference analysis, and *de novo* assembly of orthopoxvirus Illumina reads.
+      - layout: top
+        title: wf-assembly-snps
+        description: Modular bacterial workflow producing core-genome alignments, SNP distances, recombination-aware phylogenies, and annotated visualizations.
+      - layout: top
+        title: seqlint
+        link: https://github.com/Ethan-Hetrick/seqlint
+        link_text: View Repository
+        description: Rust command-line linter providing integrity, format, compression, encoding, IUPAC, and FASTA/FASTQ checks.
+      - layout: top
+        title: Additional workflows
+        description: "**LEGION:** *Legionella* identification, typing, assembly, and phylogenetics. **Arbovirus Metagenomics:** metagenomic detection and assembly evaluation. **SPN Typing Workflow:** end-to-end *S. pneumoniae* typing, AMR analysis, and reporting."
 
   - title: Publications
     layout: list
     content:
       - layout: top
+        title: "neissflow: Streamlining Genomic Epidemiology of Neisseria gonorrhoeae with Nextflow"
+        sub_title: Morin K, Hetrick E, et al. — Preprint
+        caption: "2026"
+        link: https://doi.org/10.64898/2026.07.22.740120
+        link_text: View Publication
+      - layout: top
+        title: Enhanced Bayesian Spline Regression Approach for Modelling Trends in Infections Caused by Pathogens Commonly Transmitted Through Food
+        sub_title: Weller DL, Sevilla S, Hetrick E, et al. — Zoonoses 6(1)
+        caption: "2026"
+        link: https://doi.org/10.15212/zoonoses-2025-0030
+        link_text: View Publication
+      - layout: top
         title: Patterns of genomic deletions in monkeypox virus during the 2022 outbreak in the United States
-        sub_title: Nature Communications
+        sub_title: Gigante CM, McGrath D, Sukkestad S, Hetrick E, et al. — Nature Communications 16, 8942
         caption: "2025"
         link: https://doi.org/10.1038/s41467-025-64003-y
         link_text: View Publication
-        description: |
-          Gigante, C.M., McGrath, D., Sukkestad, S., **Hetrick, E.**, et al. *Patterns of genomic deletions in monkeypox virus during the 2022 outbreak in the United States.* **Nature Communications 16, 8942 (2025).**
+      - layout: top
+        title: Metagenome-based Quantification of the Urban Effects on the Chattahoochee River Reveals Sewage Escape Events
+        sub_title: Miller NA, Lindner BG, Conrad RE, Cha G, Suttner B, Davila L, Hetrick E, et al.
+        caption: In review
+      - layout: top
+        title: Genetic discontinuities among microbial eukaryotes suggest that the 95% ANI may be a universal reference threshold for microbial species demarcation
+        sub_title: Hetrick EE, Royer CJ, Seabolt MH, Konstantinidis KT
+        caption: In review
 
+  - title: Presentations & Posters
+    layout: list
+    content:
+      - layout: top
+        title: Genetic discontinuities among microbial eukaryotes suggest that the 95% ANI may be a universal reference threshold for microbial species demarcation
+        sub_title: STATGEN 2026, Emory University
+        caption: "May 2026 | Atlanta, GA"
+      - layout: top
+        title: "Enabling Accessible Transcriptomics Through Workflow Consolidation: A Lyme Disease Case Study"
+        sub_title: AMD Days Conference 2026, CDC
+      - layout: top
+        title: "neissflow: Development and Validation of a Nextflow Pipeline for Streamlining Genomic Epidemiology of Neisseria gonorrhoeae"
+        sub_title: AMD Days Conference 2026
+      - layout: top
+        title: "RADish: Restriction-site Associated DNA sequencing pipeline for mosquito insecticide-resistance surveillance and haplotype analysis"
+        sub_title: CDC AMD Days 2026
+      - layout: top
+        title: Performance evaluation of read-mapping tools for public-health research
+        sub_title: CDC AMD Days — oral & poster
+        caption: "2023"
+      - layout: top
+        title: Degradation of Methyl Orange via Photocatalysis with Cu₂O-Imprinted PVA/PAA Membranes
+        sub_title: Ball State Chemistry Research Immersion — oral & poster
+        caption: "2019"
 
-  - title: Research Experience
+  - title: Undergraduate Research Experience
     layout: list
     content:
       - layout: left
-        title: Kostas Bioinformatics Research Lab, Georgia Institute of Technology
-        sub_title: PhD Student Researcher
-        caption: "Fall 2023 – Present"
-        description: |
-          - Project 1: Investigating metagenomic trends in the Chattahoochee River associated with wastewater
-            treatment facility byproducts using comparative genomics.
-          - Project 2: Evaluating the species boundaries of Microbial Eukaryotes using Average Nucleotide Identity
-            and comparative genomics.
+        title: Biochemistry Lab
+        sub_title: Dr. Emil, Ball State University
+        caption: "August – December 2020"
+        description: Designed oligonucleotides in NUPACK for binary light-up aptameric sensors and constructed a full-adder Boolean circuit.
       - layout: left
-        title: Emil Biochemistry Research Lab, Ball State University
-        sub_title: Undergraduate Research Assistant
-        caption: "August 2020 – December 2020"
-        description: |
-          - Computationally designed oligonucleotides using NUPACK for binary light-up aptameric sensors (BLAS).
-      - layout: left
-        title: Bernstein Mycology Research Lab, Ball State University
-        sub_title: Undergraduate Research Assistant
+        title: Mycology Lab
+        sub_title: Dr. Bernstein, Ball State University
         caption: "October 2019 – May 2020"
-        description: |
-          - Performed quantitative biofilm assays on *Candida albicans* for future application of
-            expansion microscopy on biofilms.
+        description: Performed quantitative *Candida albicans* biofilm assays for expansion-microscopy applications.
       - layout: left
-        title: Zahran Environmental Chemistry Research Lab, Ball State University
-        sub_title: Undergraduate Research Assistant
+        title: Environmental Chemistry Lab
+        sub_title: Dr. Zahran, Ball State University
         caption: "December 2018 – August 2019"
-        description: |
-          - Developed protocols for synthesizing copper nanoparticles that photodegrade persistent
-            organic pollutants (e.g., PCBs) and embedding them in polymeric membranes for nanoparticle recovery.
-          - Completed 2019 summer student internship program (CRISP) project on assessing a CuO2 nanoparticle
-            synthesis protocol for degrading organic pollutants via photoactivation.
-          - Presented project findings to chemistry faculty and interns.
+        description: Developed copper-nanoparticle-imprinted membranes for light-activated pollutant degradation; continued through the CRISP Summer Internship.
 
-  - title: Volunteering
+  - title: Leadership & Service
     layout: list
     content:
-      - layout: left
-        title: Hammond Sanitary District Wastewater Treatment Facility
-        sub_title: Volunteer Laboratory Assistant
-        caption: "December 2019"
-        description: |
-          - Performed wastewater chemical analyses and sample processing, including phosphorus, pH,
-            total Kjeldahl nitrogen, suspended solids, and biochemical / chemical oxygen demand.
+      - layout: top
+        title: Public Health Academy Instructor
+        sub_title: David J. Sencer CDC Museum
+        description: Instructed a genome-sequencing laboratory workshop for local high school students.
+      - layout: top
+        title: Volunteer Laboratory Assistant
+        sub_title: Hammond Sanitary District
+        caption: "2019"
+        description: Performed wastewater chemical analysis and sample processing.
+      - layout: top
+        title: Undergraduate Tutor
+        sub_title: Ball State University Learning Center
+        caption: "2020 – 2021"
+        description: Tutored biology, chemistry, and Spanish and supported student goal-setting.
+      - layout: top
+        title: STEM Educator Program Intern
+        sub_title: Ball State University
+        caption: "Summer 2019"
+        description: Co-developed high-school biology curricula and explored AR/VR learning tools.
+      - layout: top
+        title: Computer Lab Monitor & Exam Proctor
+        sub_title: Ball State University Unified Technology Support
+        caption: "2018 – 2021"
+        description: Provided technical support, diagnosed equipment, and proctored exams.
+      - layout: top
+        title: Vice President, Fine Focus
+        sub_title: Ball State University undergraduate microbiology journal
+        caption: "2020 – 2021"
+        description: Presented on SARS-CoV-2 vaccine development and promoted vaccination and diversity outreach.
 
-# Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
+references_title: References available upon request
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
