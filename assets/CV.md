@@ -143,7 +143,7 @@ Extracurriculars: Ball State Jazz Band, University Singers
 
 ## Undergraduate Research Experience
 
-- **Biochemistry Lab (Dr. Emil), Ball State University** — Computationally designed oligonucleotides in NUPACK for binary light-up aptameric sensors (BLAS); constructed a full-adder Boolean logic circuit. *Aug–Dec 2020*
+- **Biochemistry Lab (Dr. Emil), Ball State University** — Computationally designed oligonucleotides in NUPACK for binary light-up aptameric sensors (BLAS). *Aug–Dec 2020*
 - **Mycology Lab (Dr. Bernstein), Ball State University** — Performed quantitative biofilm assays on *Candida albicans* toward expansion-microscopy applications. *Oct 2019 – May 2020*
 - **Environmental Chemistry Lab (Dr. Zahran), Ball State University** — Developed copper-nanoparticle-imprinted PVA/PAA membranes for light-activated degradation of persistent organic pollutants; prepared and characterized nanomaterials. *Dec 2018 – Aug 2019* (continued through CRISP Summer Internship, 2019)
 
